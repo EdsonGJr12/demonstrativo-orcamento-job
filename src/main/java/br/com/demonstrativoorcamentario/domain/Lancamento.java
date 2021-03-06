@@ -2,9 +2,11 @@ package br.com.demonstrativoorcamentario.domain;
 
 import java.time.LocalDate;
 
-import lombok.Data;
+import lombok.Builder;
+import lombok.Getter;
 
-@Data
+@Builder
+@Getter
 public class Lancamento {
 	private Long codigoDaNaturezaDaDespesa;
 	private String descricaoDaNaturezaDeDespesa;
