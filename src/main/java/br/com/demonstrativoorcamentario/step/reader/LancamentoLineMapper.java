@@ -1,4 +1,4 @@
-package br.com.demonstrativoorcamentario.step;
+package br.com.demonstrativoorcamentario.step.reader;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
